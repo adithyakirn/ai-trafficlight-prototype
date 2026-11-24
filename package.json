@@ -1,0 +1,10 @@
+{
+  "name": "bathery-3d-map",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist",
+    "server": "node server.js 8080",
+    "backend": "node server.js 8081"
+  }
+}
